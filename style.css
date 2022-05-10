@@ -1,0 +1,74 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: lightskyblue;
+  margin-left: 0;
+}
+
+header {
+  display: flex;
+  text-decoration: none;
+  margin: 10px 20px 0 20px;
+}
+
+nav a {
+  padding: 0 10px;
+  text-decoration: none;
+  margin: 0 0 0 30px;
+}
+nav :hover {
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+.landing {
+  display: flex;
+  margin: 10px 20px 0 20px;
+}
+.main {
+  width: 50%;
+  margin: 60px 30px 20px 30px;
+}
+#facebook {
+  text-decoration: none;
+  background-color: #4b7be5;
+  padding: 10px 40px;
+  font-weight: 600;
+  color: aliceblue;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 15px 0;
+}
+.main img {
+  width: 100%;
+  position: relative;
+  left: -20px;
+  top: 50px;
+}
+h1 {
+  font-size: 38px;
+}
+.aboutus {
+  display: flex;
+  margin: 10px 20px 0 20px;
+}
+.main {
+  background-color: lightskyblue;
+}
+.forms {
+  display: flex;
+  margin: 10px 20px 10px 20px;
+}
+.formpic {
+  width: 50%;
+}
+.formpic img {
+  width: 80%;
+  position: relative;
+  left: 50px;
+  top: 120px;
+}
+form {
+  margin: 10px 20px 0 20px;
+}
+.form {
+  margin-left: 50%;
+}

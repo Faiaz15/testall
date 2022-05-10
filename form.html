@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav><a href="home.html">Home</a></nav>
+      <nav><a href="gallery.html">Gallery</a></nav>
+      <nav><a href="form.html">Form</a></nav>
+    </header>
+   
+    <section>
+        <div class="forms">
+            <div class="formpic">
+                <img src="images/Cooking.png" alt="" srcset="">
+            </div>
+             <div class="formpic">
+                <form action="">
+                    <h1>Registration here</h1>
+                    
+                    <div>
+                        <p>
+                            Name:
+                            <input type="text" placeholder="enter your name" />
+                          </p>
+                          <p> Email:  <input type="text" placeholder="enter your e-mail" /></p>
+                          <fieldset>
+                              <legend>
+                                  Select your Food
+                              </legend>
+                              <p> <label for="Lunch"><input type="radio" name="Dish" id="Lunch">Lunch</label></p>
+                              <p> <label for="Snacks"><input type="radio" name="Dish" id="Snacks">Snacks</label></p>
+                
+                          </fieldset>
+                          <fieldset>
+                              <legend>Selec your item</legend>
+                              <p> <label for="chicken"><input type="checkbox" name="item" id="chicken">chicken</label></p>
+                              <p> <label for="Fried Rice"><input type="checkbox" name="item" id="Fried Rice">Fried Rice</label></p>
+                              <p> <label for="Khichuri"><input type="checkbox" name="item" id="Khichuri">Khichuri</label></p>
+                              
+                          </fieldset>
+                        </form>
+                        <p>Special Instruction</p>
+                        <textarea placeholder="something you want to order extra" name="" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Clear</button>
+                    </div>
+        </div>
+       
+        
+    </section>
+  </body>
+</html>
